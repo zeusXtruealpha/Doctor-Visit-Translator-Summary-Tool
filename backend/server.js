@@ -3,7 +3,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const rateLimit = require('express-rate-limit');
 require('dotenv').config();
-// Restart trigger 2
+// New API key restart
 
 const app = express();
 const PORT = process.env.PORT || 5000;
