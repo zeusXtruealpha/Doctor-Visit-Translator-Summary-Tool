@@ -62,9 +62,6 @@ jspm_packages/
 tmp/
 temp/
 
-# Development specs and Kiro IDE files
-.kiro/
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
