@@ -118,3 +118,15 @@ The Doctor Visit Translator & Summary Tool is a web-based AI application designe
 3. THE System SHALL integrate with Google Gemini API for AI text processing capabilities
 4. THE System SHALL operate without persistent data storage or user authentication systems
 5. THE System SHALL be deployable as a single web application suitable for live demonstration
+
+### Requirement 13
+
+**User Story:** As a developer, I want to use Git version control with separate testing and production branches, so that I can manage code changes safely and deploy systematically.
+
+#### Acceptance Criteria
+
+1. THE System SHALL use Git version control with the repository at https://github.com/zeusXtruealpha/Doctor-Visit-Translator-Summary-Tool
+2. THE System SHALL maintain a 'testing' branch for development and testing work
+3. THE System SHALL maintain a 'production' branch for stable, demo-ready code
+4. WHEN development work is complete and tested, THE System SHALL merge changes from testing to production branch
+5. THE System SHALL use proper Git commit messages and branch management practices
